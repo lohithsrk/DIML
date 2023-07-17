@@ -190,7 +190,5 @@ fun segregateLikedLogsByDate(logs: List<LogEntity>): HashMap<LocalDate, HashSet<
             segregatedLikedLogs[log.date.toLocalDate()] = hashSetOf(log)
         }
     }
-
-
     return segregatedLikedLogs
 }
